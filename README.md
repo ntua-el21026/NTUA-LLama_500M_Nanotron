@@ -20,17 +20,15 @@ Evaluation follows a tiered protocol:
 
 ## Repository Contents
 
-- `config/`: canonical training and SFT configurations used in reported runs
-  - `config_stage1.yaml`
-  - `config_stage2.yaml`
-  - `config_stage3.yaml`
-  - `sft_stage3_smoltalk.yaml`
-- `docs/`: report-related material
-- `model/`: model release artifacts (when available)
+- `config/`: canonical training and SFT configurations for the reported pipeline:
+  `config_stage1.yaml`, `config_stage2.yaml`, `config_stage3.yaml`, `sft_stage3_smoltalk.yaml`.
+- `docs/`: paper sources and compiled report (`main.tex`, `Report.pdf`).
+- `weights/`: selected model-only checkpoint exports for reproducibility and comparison baselines:
+  `stage3_12000_modelonly`, `sft_stage3_smoltalk_run1_5000_modelonly`.
 
 ## Reproducibility Note
 
-Large checkpoints, cached datasets, and full evaluation outputs are produced on Leonardo HPC storage and are not versioned in this repository.
+Full training checkpoints, dataset caches, and complete evaluation outputs are produced on Leonardo HPC storage and are not fully versioned in this repository. This repository keeps the canonical configs, report artifacts, and selected release-ready weights.
 
 ## License
 
