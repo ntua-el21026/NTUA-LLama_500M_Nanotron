@@ -1,4 +1,4 @@
-# NTUA-LLaMA-500M (Nanotron)
+# NTUA-Llama-500M (Nanotron)
 
 Official repository for Team 12 project in the NTUA ECE course "Pattern Recognition" (Winter 2025-2026).
 
